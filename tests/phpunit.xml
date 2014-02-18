@@ -1,0 +1,7 @@
+<phpunit colors="true" forceCoversAnnotation="true" processIsolation="true">
+	<testsuites>
+		<testsuite name="Demonstration Test Suite">
+			<directory suffix="Test.php" phpVersion="5.4.0" phpVersionOperator=">=">.</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
