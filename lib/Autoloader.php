@@ -64,6 +64,7 @@ class Autoloader
     public function loadClass($classname)
     {
 		$file = str_replace('\\', '/', $classname) . '.php';
+		$file = lcfirst($file);
 		require_once($this->getRootPath() . $file);
     }
 
